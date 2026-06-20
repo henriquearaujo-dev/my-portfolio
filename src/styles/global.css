@@ -39,3 +39,16 @@ p {
   outline: none;
   box-shadow: var(--focus-ring);
 }
+
+.container {
+  width: 100%;
+  max-width: var(--container-xl);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--container-gutter);
+  padding-right: var(--container-gutter);
+}
+
+.container--narrow {
+  max-width: var(--container-md);
+}

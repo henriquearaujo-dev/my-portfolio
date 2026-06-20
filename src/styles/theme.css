@@ -54,4 +54,15 @@
   --radius-sm: 6px;
   --radius-md: 12px;
   --radius-lg: 24px;
+
+  /* ==========================================
+     5. LAYOUT & BREAKPOINTS (Limites do Site)
+     ========================================== */
+  /* Largura máxima que o seu conteúdo vai atingir em telas grandes */
+  --container-xl: 1280px;
+  --container-lg: 1024px;
+  --container-md: 768px;
+
+  /* Grid interna dos containers (Espaçamento de segurança nas laterais) */
+  --container-gutter: var(--space-4); /* 16px no mobile */
 }
