@@ -1,0 +1,57 @@
+:root {
+  /* ==========================================
+     1. PRIMITIVE TOKENS (Cores puras/Valores brutos)
+     ========================================== */
+  --slate-50: #f8fafc;
+  --slate-400: #94a3b8;
+  --slate-800: #1e293b;
+  --slate-900: #0f172a;
+  --slate-950: #020617;
+
+  --blue-500: #3b82f6;
+  --blue-600: #2563eb;
+  --emerald-500: #10b981;
+
+  /* ==========================================
+     2. SEMANTIC TOKENS (Onde e como a cor é aplicada)
+     ========================================== */
+  --bg-main: var(--slate-50); /* Fundo principal do site */
+  --bg-surface: var(--slate-900); /* Fundo de cards/bento grids */
+
+  --text-primary: var(--slate-900); /* Títulos e textos principais */
+  --text-secondary: var(--slate-950); /* Subtítulos e parágrafos */
+
+  --accent: var(--blue-500); /* Detalhes, botões e links */
+  --accent-hover: var(--blue-600); /* Estado de hover */
+  --success: var(--emerald-500); /* Status positivo/Concluído */
+
+  --border-color: rgba(255, 255, 255, 0.08); /* Bordas sutis para Dark Mode */
+  --focus-ring: 0 0 0 3px rgba(59, 130, 246, 0.5); /* Acessibilidade no teclado */
+
+  /* ==========================================
+     3. TYPOGRAPHY (Escala harmônica baseada em 16px)
+     ========================================== */
+  --font-sans: 'Geist';
+
+  --text-xs: 0.75rem; /* 12px */
+  --text-sm: 0.875rem; /* 14px */
+  --text-base: 1rem; /* 16px */
+  --text-lg: 1.25rem; /* 20px */
+  --text-xl: 1.563rem; /* 25px */
+  --text-2xl: 1.953rem; /* 31px */
+  --text-3xl: 2.441rem; /* 39px */
+
+  /* ==========================================
+     4. SPACING & RADIUS (Grid consistente)
+     ========================================== */
+  --space-1: 0.25rem; /* 4px */
+  --space-2: 0.5rem; /* 8px */
+  --space-3: 0.75rem; /* 12px */
+  --space-4: 1rem; /* 16px */
+  --space-6: 1.5rem; /* 24px */
+  --space-8: 2rem; /* 32px */
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 24px;
+}
