@@ -6,6 +6,7 @@
   width: var(--container-lg);
   padding: var(--space-3) var(--space-4);
   border-radius: var(--radius-xl);
+  border: 1px solid #ededed;
 }
 
 .nav_logo {
@@ -24,6 +25,8 @@
   gap: 2rem;
   /* background-color: violet; */
   list-style: none;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 .nav_menu a {
@@ -40,6 +43,8 @@
   border-radius: var(--radius-xl);
   background-color: var(--slate-900);
   color: var(--stale-0);
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
 .nav_cta svg {

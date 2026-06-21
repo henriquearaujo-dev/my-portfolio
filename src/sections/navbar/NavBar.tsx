@@ -8,11 +8,13 @@ export function NavBar() {
     <div className="section-wrapper">
       <div className="container flex radius">
         <nav className={styles.main_nav}>
-          <div className={styles.nav_logo}>
-            <span>
-              <img src={img} alt="Logo" />
-            </span>
-          </div>
+          <a href="#">
+            <div className={styles.nav_logo}>
+              <span>
+                <img src={img} alt="Logo" />
+              </span>
+            </div>
+          </a>
 
           <div className={styles.nav_menu}>
             <ul>
@@ -34,10 +36,12 @@ export function NavBar() {
             </ul>
           </div>
 
-          <div className={styles.nav_cta}>
-            <span>Download CV</span>
-            <DownloadIcon />
-          </div>
+          <a href="#">
+            <div className={styles.nav_cta}>
+              <span>Download CV</span>
+              <DownloadIcon />
+            </div>
+          </a>
         </nav>
       </div>
     </div>
