@@ -50,26 +50,18 @@ p {
 
 .container {
   width: 100%;
+  display: flex;
+  justify-content: center;
   max-width: var(--container-xl);
   margin-left: auto;
   margin-right: auto;
   padding-left: var(--container-gutter);
   padding-right: var(--container-gutter);
   padding: 1rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   background-color: var(--slate-400);
 }
 
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.radius {
-  border-radius: var(--radius-xl);
-}
 .container--narrow {
   max-width: var(--container-md);
 }
