@@ -3,19 +3,19 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--stale-0);
-  width: var(--container-lg);
+  width: 100%;
+  max-width: var(--container-lg);
+  margin: 0 auto;
   padding: var(--space-3) var(--space-4);
   border-radius: var(--radius-xl);
   border: 1px solid #ededed;
-}
-
-.nav_logo {
-  /* background-color: darkmagenta;  */
+  position: relative;
 }
 
 .nav_logo img {
-  margin-top: 0.5rem;
-  width: 10rem;
+  display: block;
+  width: 9.5rem;
+  height: auto;
 }
 
 .nav_menu ul {
@@ -23,15 +23,24 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  /* background-color: violet; */
   list-style: none;
-  font-size: 1.6rem;
+  font-size: var(--text-sm);
   font-weight: 500;
+  padding: 0;
+  margin: 0;
 }
 
 .nav_menu a {
   text-decoration: none;
   color: var(--slate-900);
+  transition: color 0.2s ease;
+}
+
+.nav_menu a:hover {
+  color: var(--primary-color);
+}
+.nav_menu a:active {
+  text-decoration: none;
 }
 
 .nav_cta {
@@ -43,10 +52,77 @@
   border-radius: var(--radius-xl);
   background-color: var(--slate-900);
   color: var(--stale-0);
-  font-size: 1.4rem;
+  font-size: var(--text-sm);
   font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.nav_cta:hover {
+  opacity: 0.9;
 }
 
 .nav_cta svg {
   width: 1.5rem;
+}
+
+.menu_toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--slate-900);
+}
+
+.menu_toggle svg {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+@media (max-width: 768px) {
+  .main_nav {
+    padding: 1.5rem;
+  }
+  .menu_toggle {
+    display: block;
+    order: 2;
+  }
+
+  .nav_logo_link {
+    order: 1;
+  }
+
+  .cta_link {
+    display: none;
+  }
+
+  .nav_menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--stale-0);
+    border: 1px solid #ededed;
+    border-top: none;
+    border-radius: var(--radius-xl);
+    padding: var(--space-4);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+
+  .menu_open {
+    display: block;
+  }
+
+  .nav_menu ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .nav_menu a {
+    display: block;
+    width: 100%;
+    padding: var(--space-2) 0;
+  }
 }
