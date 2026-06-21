@@ -51,17 +51,18 @@
   --space-6: 1.5rem; /* 24px */
   --space-8: 2rem; /* 32px */
 
-  --radius-sm: 6px;
-  --radius-md: 12px;
-  --radius-lg: 24px;
+  --radius-sm: 0.375rem; /* 6px */
+  --radius-md: 0.75rem; /* 12px */
+  --radius-lg: 1.5rem; /* 24px */
+  --radius-xl: 3rem; /* 32px */
 
   /* ==========================================
      5. LAYOUT & BREAKPOINTS (Limites do Site)
      ========================================== */
   /* Largura máxima que o seu conteúdo vai atingir em telas grandes */
-  --container-xl: 1280px;
-  --container-lg: 1024px;
-  --container-md: 768px;
+  --container-xl: 128rem;
+  --container-lg: 102.4rem;
+  --container-md: 76.8rem;
 
   /* Grid interna dos containers (Espaçamento de segurança nas laterais) */
   --container-gutter: var(--space-4); /* 16px no mobile */

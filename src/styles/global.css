@@ -40,6 +40,14 @@ p {
   box-shadow: var(--focus-ring);
 }
 
+.section-wrapper {
+  width: 100%;
+  /* Aqui você coloca apenas o padding vertical e a cor de fundo */
+  /* padding-top: var(--space-8);
+  padding-bottom: var(--space-8); */
+  border-radius: var(--radius-md);
+}
+
 .container {
   width: 100%;
   max-width: var(--container-xl);
@@ -47,8 +55,21 @@ p {
   margin-right: auto;
   padding-left: var(--container-gutter);
   padding-right: var(--container-gutter);
+  padding: 1rem;
+  margin-top: 2rem;
+  background-color: var(--slate-400);
 }
 
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.radius {
+  border-radius: var(--radius-xl);
+}
 .container--narrow {
   max-width: var(--container-md);
 }

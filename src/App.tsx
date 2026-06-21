@@ -1,5 +1,7 @@
+import { NavBar } from '@/sections/navbar';
+
 function App() {
-  return <>Hello World</>;
+  return <NavBar />;
 }
 
 export default App;

@@ -1,0 +1,23 @@
+.nav_logo {
+  /* background-color: darkmagenta;  */
+}
+
+.nav_logo img {
+  margin-top: 0.5rem;
+  width: 10rem;
+}
+
+.nav_menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  /* background-color: violet; */
+  list-style: none;
+}
+
+.nav_cta {
+  padding: 1rem;
+  border-radius: var(--radius-xl);
+  background-color: rgb(124, 124, 124);
+}
