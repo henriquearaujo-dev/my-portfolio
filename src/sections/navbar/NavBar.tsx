@@ -1,3 +1,4 @@
+import { DownloadIcon } from 'lucide-react';
 import styles from './NavBar.module.css';
 
 import img from '@/assets/logo.webp';
@@ -25,6 +26,7 @@ export function NavBar() {
 
           <div className={styles.nav_cta}>
             <span>Download CV</span>
+            <DownloadIcon />
           </div>
         </nav>
       </div>

@@ -27,8 +27,16 @@
 }
 
 .nav_cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
   padding: var(--space-4) var(--space-6);
   border-radius: var(--radius-xl);
   background-color: var(--slate-900);
   color: var(--stale-0);
+}
+
+.nav_cta svg {
+  width: 1.5rem;
 }
