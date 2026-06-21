@@ -16,11 +16,21 @@ export function NavBar() {
 
           <div className={styles.nav_menu}>
             <ul>
-              <li>Início</li>
-              <li>Laboratório</li>
-              <li>Tecnologias</li>
-              <li>Sobre</li>
-              <li>Contato</li>
+              <a href="#">
+                <li>Início</li>
+              </a>
+              <a href="#">
+                <li>Laboratório</li>
+              </a>
+              <a href="#">
+                <li>Tecnologias</li>
+              </a>
+              <a href="#">
+                <li>Sobre</li>
+              </a>
+              <a href="#">
+                <li>Contato</li>
+              </a>
             </ul>
           </div>
 
